@@ -1,12 +1,12 @@
-let text = document.getElementById("toggleText");
+let myText = document.getElementById("toggleText");
 
-function textToggle() {
-  if (text.innerHTML === "Hello world!") {
-    text.innerHTML = "Goodbye world!";
+function btnToggle() {
+  if (myText.innerHTML === "Hello world!") {
+    myText.innerHTML = "Goodbye world!";
 
     document.querySelector("button").innerHTML = "Click to say hello!";
   } else {
-    text.innerHTML = "Hello world!";
+    myText.innerHTML = "Hello world!";
     document.querySelector("button").innerHTML = "Click to say goodbye!";
   }
 }
